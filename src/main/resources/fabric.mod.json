@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodclient",
+  "version": "${version}",
+  "name": "Blood Client",
+  "description": "Single-file utility client with a red GUI, HUD and toggleable modules.",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": { "client": ["com.blood.BloodClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
